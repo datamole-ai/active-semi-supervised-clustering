@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+active-semi-supervised-clustering = {editable = true, path = "."}
+
+[dev-packages]
+jupyter = "*"
+scikit-learn = "*"
+setuptools = "*"
+wheel = "*"
+twine = "*"
+
+[requires]
+python_version = "3"
